@@ -1,5 +1,4 @@
 
-
 const data = [
     {id : '1',
      tabTitle: "Tab 1",
@@ -17,3 +16,8 @@ const data = [
   }
 
 ]
+
+function Tab(props){
+  
+  const [visibleTab, setVisibleTab] = React.useState(props.data[0].id)
+}
