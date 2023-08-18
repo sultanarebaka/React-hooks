@@ -21,3 +21,7 @@ function Tab(props){
   
   const [visibleTab, setVisibleTab] = React.useState(props.data[0].id)
 }
+
+
+const listTitles = props.data.map((item) => 
+     
