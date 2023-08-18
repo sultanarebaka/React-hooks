@@ -1,5 +1,7 @@
 
 
+
+
 .tabs-titles{
     padding: 0px;
     margin: 0;
@@ -15,5 +17,13 @@
   
  .tab-title--active {
   background-color: #f5f5f5;
-  color: #00070a;
+  color: white;
 }
+
+
+.tab-content{
+  background-color: yellow;
+  padding: 5px;
+  margin: 0;
+}
+
