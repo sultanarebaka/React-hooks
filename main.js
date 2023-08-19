@@ -30,5 +30,13 @@ const listTitles = props.data.map((item) =>
 return(
       <div className="tabs">
         <ul className="tabs-titles">
+        {listTitles}
+        </ul>
+        <div className="tab-content">
+           {listContent}
+        </div>
+      </div>
+    )
+}
 
 }
