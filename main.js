@@ -25,3 +25,10 @@ function Tab(props){
 
 const listTitles = props.data.map((item) => 
      
+
+
+return(
+      <div className="tabs">
+        <ul className="tabs-titles">
+
+}
