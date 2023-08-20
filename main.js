@@ -40,3 +40,9 @@ return(
 }
 
 }
+
+
+
+ReactDOrem(
+  document.getElementById('root')
+)
